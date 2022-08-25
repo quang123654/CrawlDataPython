@@ -1,402 +1,402 @@
 [
     {
-        "id": "73468169",
-        "title": "Tkinter root.destroy delayed after time.sleep",
-        "content": "After destroying a Tkinter window I put a time.sleep, however it first waits, then destroys the window, instead of first destroying then waitingroot.destroy()time.sleep(5)",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73468162",
-        "title": "Is it possible to get the payload data of a JavaScript socket io and print it using Django?",
-        "content": "I have this JavaScript project that uses socket io and console the data.const   = generateMockData(deviceId);        console.log(payload)        io.of(\"/\").emit(\"data\", JSON....",
-        "vote": "0",
-        "answer": "0",
-        "view": "1"
-    },
-    {
-        "id": "73468144",
-        "title": "Can we predict features from labels in machine learning",
-        "content": "Given a dataset with 100 observations and 3 features plus one label(regression). we train the model with 100 * 4(3 features + 1 label) data. Now can we predict the features when the label is given as ...",
-        "vote": "-1",
-        "answer": "-1",
-        "view": "0"
-    },
-    {
-        "id": "73468126",
-        "title": "calculate mean of new list of number with old mean",
-        "content": "I have a requirement to update the existing mean when new set of data is coming.For example,Say I have already calculated mean of a list of numbers and kept.from statistics import meanl1=[1,0,1,0,...",
+        "id": "73481395",
+        "title": "Pandas df plot x-axis date labels reformatting",
+        "content": "would appreciate any help as I haven't found any questions covering this.I'm plotting a line graph with date on x axis:df = pd.read_csv('random.csv')df.plot('date', 'y')plt.xlabel('Dates')plt....",
         "vote": "0",
         "answer": "0",
         "view": "2"
     },
     {
-        "id": "73468125",
-        "title": "How do I go about incrementing a datetime value by one month using 'relativedelta(months=1)' without affecting the numerical day value?",
-        "content": "enter image description hereThe code I wrote above works fine except I want the numerical day (%d) of the month to stay unchanged (30th) for all the months bar February (28th). The fact that the day ...",
+        "id": "73481370",
+        "title": "Going to Specific Location using Neural Network in ROS",
+        "content": "i am developing a program that can be used to move the turtlebot to specific location using neural network with lidar sensors.in this program i have some problem, can move the turtlebot and avoid the ...",
         "vote": "0",
         "answer": "0",
-        "view": "0"
+        "view": "6"
     },
     {
-        "id": "73468111",
-        "title": "Minor axis measurement in irregular shape object",
-        "content": "The minor axis is the (x,y) endpoints of thelongest line that can be drawn through theobject whilst remaining perpendicular with themajor-axis.\u2013 The minor axis endpoints (x1,y1) and (x2,y2) are...",
+        "id": "73481366",
+        "title": "Python: sort a list of dictionary using mutliple keys",
+        "content": "I have a  list of dictionary of the previous 12 months values.   I would like to sort it based on year and then month, without importing any extra libraries.Current Input[{'key': '2021 Mar', 'value':...",
         "vote": "0",
         "answer": "0",
-        "view": "1"
+        "view": "14"
     },
     {
-        "id": "73468109",
-        "title": "Search python by userinput & return corresponding values",
-        "content": "I am trying to create a jira taskBot using telegram/AWS lambda/Python.I am new to python!Basically a user can message the telegram bot and assign a Jira task to another user by typing:/assigntask &...",
+        "id": "73481305",
+        "title": "How can I find google flights URL query parameters?",
+        "content": "I have been trying to scrape google flights:I am using selenium python to automate google flights(https://www.google.com/travel/flights).But selenium is slow and sometimes it's hard to automate a ...",
         "vote": "0",
         "answer": "0",
-        "view": "0"
+        "view": "17"
     },
     {
-        "id": "73468098",
-        "title": "How to use reverse proxy over websocket communication in Python?",
-        "content": "I'm doing an IoT project with Python. In the project, I am having a problem while communicating with an internal network and a public network. Endpoint establishes a continuous connection with the ...",
-        "vote": "-2",
-        "answer": "-2",
-        "view": "0"
-    },
-    {
-        "id": "73468079",
-        "title": "How can I make pairs of the partner_name values in the given dataset?",
-        "content": "user_idpartner_nameorder_sequence\r2Star Bucks1\r2KFC2\r2MCD3\r6Coffee Store1\r6MCD2\r9KFC1\rI am trying to figure out what two restaurant combinations occur the most often. For instance,...",
+        "id": "73481302",
+        "title": "List object not callable when calculating temperatues",
+        "content": "Im trying to calculate the minimum temperature, but when I try to print it, It says that the min is equal to the value returned by the function but i get an error like this:TypeError: 'list' object ...",
         "vote": "0",
         "answer": "0",
-        "view": "0"
+        "view": "19"
     },
     {
-        "id": "73468030",
-        "title": "local variable 'orgHigh' referenced before assignment in google colab ( python 3.7 )",
-        "content": "I'm having the local variable referenced before the assignment error and I have tried a lot of ways that I can use to fix this. Any help would be greatly appreciated.error;Traceback (most recent ...",
+        "id": "73481253",
+        "title": "Discord.ext checking if user has manage message permissions?",
+        "content": "For my discord bot I have a clr command and I need to see if the user who used the command has permissions to manage messages. How can I do that? (New To Discord.ext)from discord.ext import commands...",
+        "vote": "0",
+        "answer": "0",
+        "view": "6"
+    },
+    {
+        "id": "73481249",
+        "title": "Jupyter notebook executions turn grey in Visual studio code",
+        "content": "I am trying to execute python code in VS code enabling jupyter notebook execution.Repeatedly the execution screen turns gray which makes the output invisible with the headers.Code will be still ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "12"
+    },
+    {
+        "id": "73481245",
+        "title": "Incorrect Context Appearing in Django Project",
+        "content": "I am creating a workout project where for every workout there is a list of exercises and for every exercise there is a list of sets which has specific weights and reps.Here is the model for more ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "10"
+    },
+    {
+        "id": "73481229",
+        "title": "What is the best practice for a re-pull from git?",
+        "content": "I'm currently working with django and python from git repo. It is understandable that I should pull and establish a virtual environment (venv) in the cloned directory. I also had installed all the ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "12"
+    },
+    {
+        "id": "73481220",
+        "title": "Removing index from pandas data frame on print",
+        "content": "I'm really struggling to get this to print the way I want to. I've read through the documentation on removing index, but it seems like it still shows up. Here is my code:quotes = pd.read_csv(\"...",
+        "vote": "0",
+        "answer": "2",
+        "view": "19"
+    },
+    {
+        "id": "73481208",
+        "title": "Failed to import DolphinDB Python API",
+        "content": "Environment: Windows, Python 3.8.0pip install dolphindb has been executed, but it failed to import dolphindb in Python.>>> import dolphindb as ddbTraceback (most recent call last):\u00a0 ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "4"
+    },
+    {
+        "id": "73481181",
+        "title": "How to remove background from an image and set outline using python?",
+        "content": "What I am going to doRemove background from an image (removed area should be transparent)Add a white outline to the imageI investigate ways to remove background from images and found several ways ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "7"
+    },
+    {
+        "id": "73481169",
+        "title": "What is the deeper reason I cannot call a function with named arguments in C/C++ but I can do so in Python?",
+        "content": "In Python, I can call a function with named arguments as below.def sum (i1,i2):    return (i1 + i2)print (sum(i1 = 2,i2 = 3))However in C/C++ I cannot:#include <iostream>using namespace ...",
+        "vote": "-4",
+        "answer": "5",
+        "view": "57"
+    },
+    {
+        "id": "73481166",
+        "title": "Using eval() to assess user input and some condition. What alternatives?",
+        "content": "First, to provide some context, I am designing a console based version of Blackjack for entertainment and learning purposes.The code below was my solution to evaluate different conditions given user ...",
+        "vote": "2",
+        "answer": "1",
+        "view": "37"
+    },
+    {
+        "id": "73481162",
+        "title": "How to let if fuction output only one output in python?",
+        "content": "I am trying to use if function to classify the items into 3 categories in python. My code is as follows.WBS4_ELEMENT_list_0 = ['F.1122023.117.2.001', 'F.1122012.024.2.001', 'F.1622016.AET.2.001', 'F....",
+        "vote": "0",
+        "answer": "1",
+        "view": "21"
+    },
+    {
+        "id": "73481160",
+        "title": "convert an array of integers to an array of floats",
+        "content": "Given any integer n convert it to a float 0.n#input[11 22 5 1 68 17 5 4 558]#output[0.11  0.22  0.5   0.1   0.68  0.17  0.5   0.4   0.558]Is there a way in numpy to do the following.import ...",
+        "vote": "0",
+        "answer": "3",
+        "view": "31"
+    },
+    {
+        "id": "73481153",
+        "title": "AttributeError: 'DataFrame' object has no attribute 'explode'",
+        "content": "My code is throwing this error when I try to run it, and I don't understand why. I'm confused as to why it's throwing an AttributeError when the line clearly calls .explode(...) as a function. Any ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "16"
+    },
+    {
+        "id": "73481132",
+        "title": "How to get data from views to consumers py. Django",
+        "content": "I wanted to get the data from my views.pydef index(request):    if request.method == 'POST':        post_data = json.loads(request.body.decode(\"utf-8\"))        value = post_data.get('...",
+        "vote": "0",
+        "answer": "0",
+        "view": "10"
+    },
+    {
+        "id": "73481122",
+        "title": "Using google colab forms input as dropdown, can I put the read file and add on the total list?",
+        "content": "I using google colab to share my code with people who don't know Python at all.To make it easy, I adapt forms into the cell which makes be able to select the options and parameters.parameters = &...",
+        "vote": "0",
+        "answer": "0",
+        "view": "7"
+    },
+    {
+        "id": "73481121",
+        "title": "Optimizer Adagrad from Scratch in Python-Error",
+        "content": "I try to implement Adagrad algorithm with the next code:def back_propagate_Adagrad(error, learning_rate,eps):   self.cache=np.zeros(len(self.dW)+1)   for i in reversed(range(len(self.dW))):      ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "6"
+    },
+    {
+        "id": "73481104",
+        "title": "how to correct this code to verify for all the a's in the code to check for the sample code?",
+        "content": "The following program calculates the number of input strings with letter \u2018a\u2019, and end the program when the input string is \u201c####\u201d. Here is an expected sample run:enter a string (enter #### to stop): ...",
         "vote": "-1",
-        "answer": "-1",
-        "view": "1"
+        "answer": "1",
+        "view": "22"
     },
     {
-        "id": "73468031",
-        "title": "How to put 1 or 2 in A column according to the value of column B?",
-        "content": "For example, if house column is \"Own\" (it is string), than I want to put 1 to tax_home.How can I make code for it?I tried this code but it doesn't work.Help medef none(x):    if df1['...",
+        "id": "73481094",
+        "title": "How do I create a new module in django and register the classes in that module",
+        "content": "I want to create a new module and set of middleware classes in my app.  I created a subfolder \"middleware\" and put my python classes there in separate files.  But when I try to access them ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "14"
+    },
+    {
+        "id": "73481092",
+        "title": "How to pull values from JSON into pandas dataframe using a string as the index value",
+        "content": "I am looking to build a dataframe utilizing certain data from a JSON with multiple nested dictionaries.An example of the format of the JSON is as follows:\"leagueYear\": \"2021\",   ...",
+        "vote": "0",
+        "answer": "1",
+        "view": "14"
+    },
+    {
+        "id": "73481090",
+        "title": "Drag and drop from QListWidget to QGraphicsItem",
+        "content": "I'm looking for how i can do the same thing like this : https://www.walletfox.com/course/dragdroplistscene.php with Python with PyQt5 library, but i don't know how i can do it.How i can do a subclass ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "9"
+    },
+    {
+        "id": "73481089",
+        "title": "Fast API request hangs when passing parameters to another endpoint",
+        "content": "When I reference another endpoint inside an async function in my Fast API script, that endpoint will hang and fail to load. Despite http://127.0.0.1:8000/data?nums=1&nums=2&nums=3 returning ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "13"
+    },
+    {
+        "id": "73481059",
+        "title": "Memory leak in AWS Lambda when calling local folder",
+        "content": "I have a python script that I'm currently using just to figure out how to use a docker container image and deploy it to lambda using a few libraries. The code is as follows:from transformers import ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "11"
+    },
+    {
+        "id": "73481035",
+        "title": "Can't not use kwargs in tk.CheckButton [duplicate]",
+        "content": "This is an qusition on tk.Checkbutton, i code a function to setting checkbuttonfrom tkinter import Checkbutton, PhotoImage, Tk, BooleanVar\rdef setCheckButton(root):    on_image = PhotoImage(width=...",
+        "vote": "0",
+        "answer": "0",
+        "view": "10"
+    },
+    {
+        "id": "73481033",
+        "title": "How to make post request to list of webhooks at the same time python",
+        "content": "i'm trying to make something that will take a url of a discord webhook and make a post request to it while also continuing in the loopfor example:    await kdot.create_webhook(name='K.Dot#0001')    ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "12"
+    },
+    {
+        "id": "73481028",
+        "title": "error with aiter in telethon bot in python",
+        "content": "i'm trying to loop inside my async function for my bot, and for the autodestruction function i have to iterate all the users and check if the user is an admin, done with this code:all_participants = ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "8"
+    },
+    {
+        "id": "73481011",
+        "title": "I want to upload my logs from ec2 to s3 through boto3",
+        "content": "My log name contains the date, and I want to collect and upload log data with those dates.But I dont know about python its my first time in my life help meand Thank you for your advise",
+        "vote": "-1",
+        "answer": "0",
+        "view": "10"
+    },
+    {
+        "id": "73480989",
+        "title": "Remove columns which match some pattern in python",
+        "content": "I have a large csv files which have several columns as follows:\rM_15_19_yr_M_19_25_yr_M_25_35_yr_\r203412\r092119\rI want to remove such columns which start from M_{age1}_{age2}_yr. I tried ...",
+        "vote": "2",
+        "answer": "2",
+        "view": "23"
+    },
+    {
+        "id": "73480966",
+        "title": "how can i import a function from another python file when the function is assigned to a variable name (ie from XYZ import f\"{funcname}\" [duplicate]",
+        "content": "So, i have some code that randomizes function names in another python file, it can find the function name just fine but how would i go about importing the function, ill better lay-out the question ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "9"
+    },
+    {
+        "id": "73480938",
+        "title": "Calculate sum of multiples rows with a value in another column, and store the new value in a new column",
+        "content": "I have a time series data where I would like to calculate sum of 4 quarters and divide the result with a value in another column. Here is my data example. In reality I will have 10K+ rows.df = pd....",
+        "vote": "0",
+        "answer": "1",
+        "view": "14"
+    },
+    {
+        "id": "73480911",
+        "title": "AtributeError: __enter__ in python",
+        "content": "Performing a CRUD in python, I created the connection class where is two class methods: getConnection and getCursor, when I created the PersonDAO class and its class method called seleccionar and ...",
+        "vote": "-2",
+        "answer": "0",
+        "view": "34"
+    },
+    {
+        "id": "73480900",
+        "title": "Organizing a list of dictionaries in Python",
+        "content": "I have a huge list of dictionaries with data labeled as follows{'id': 2, 'text': '\"The hotel has many restaurants to enjoy a meal. My husband and I went to the Japanese restaurant and we only ...",
+        "vote": "0",
+        "answer": "2",
+        "view": "35"
+    },
+    {
+        "id": "73480884",
+        "title": "Need a solution so when I press Enter, turtle draws a different shape",
+        "content": "The code I am trying to write needs to make 5 different shapes, which only one is included.   I am not worried about coding the other 4.What I need to know is how do I set it up so every time I press ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "23"
+    },
+    {
+        "id": "73480869",
+        "title": "ValueError: time data does not match format '%Y-%m-%d %H:%M:%S'",
+        "content": "I use twint for scraping data from twitter. Code as followsimport twintimport nest_asyncionest_asyncio.apply()# Configurec = twint.Config()c.Limit = 500c.Since = '2022-01-01'c.Until = '2022\u2013...",
+        "vote": "0",
+        "answer": "0",
+        "view": "17"
+    },
+    {
+        "id": "73480849",
+        "title": "Best practices for scheduling multiple jobs at different frequencies in a Python project?",
+        "content": "I have started scheduling a couple scripts in Python using launchd. All my imports are from the root directory, though, so unless I want to mess with sys.path (which feels like poor practice) I need ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "20"
+    },
+    {
+        "id": "73480847",
+        "title": "Datetime.strptime format for 2022-08-24T04:57:17.065000+00:00",
+        "content": "We have the following string in a variable:date_variable = \"2022-08-24T04:57:17.065000+00:00\"We would like to convert this to datetime.The following does not work:timestamp_formatted = ...",
+        "vote": "0",
+        "answer": "1",
+        "view": "15"
+    },
+    {
+        "id": "73480835",
+        "title": "Sum percentages by condition",
+        "content": "everyone.I don't know how to solve this.I would like to sum the percentages according to the result.Let me explain; all the % values for example with result i -1 should be summed (leaving the sign ...",
+        "vote": "0",
+        "answer": "1",
+        "view": "37"
+    },
+    {
+        "id": "73480827",
+        "title": "Difference in Methods for Merging Transformed PDF Pages in PyPDF2",
+        "content": "I'm attempting to create a function to add a bottom \"margin\" to pages in existing PDFs.  Those bottom margins then need to be populated with specific text determined by the file and page.  I ...",
         "vote": "0",
         "answer": "0",
         "view": "3"
     },
     {
-        "id": "73468019",
-        "title": "Can't import .py files [closed]",
-        "content": "I was trying to run the code from this repo: https://github.com/alexfrom0815/Online-3D-BPP-PCTand I ran into these errors:Traceback (most recent call last):  File \"C:\\Users\\thien\\Desktop\\test\\...",
-        "vote": "-2",
-        "answer": "-2",
-        "view": "0"
-    },
-    {
-        "id": "73468001",
-        "title": "How to run where Query in postgres using python [closed]",
-        "content": "I am trying to get data from database using python.but i am getting a error.and value is already exist in my databasecur.execute(\"SELECT * from home_curd WHERE consumer_type= domestic\")...",
-        "vote": "-2",
-        "answer": "-2",
-        "view": "0"
-    },
-    {
-        "id": "73467992",
-        "title": "How to use PyMedTermino with MongoDB to map synonyms?",
-        "content": "could anyone please guide me on how to use PyMedTermino with MongoDB?My aim is to map the diseases with it's synonyms (synonyms in an array) using the UMLS data and store the database in MongoDB.The ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467991",
-        "title": "Debug python code loaded from program launched from terminal",
-        "content": "I am launching a program remotely over ssh from a Makefile if that matters, that requires a special command line environment and parameter, that eventually runs python code via libpython.so. I am ...",
-        "vote": "-4",
-        "answer": "-4",
-        "view": "0"
-    },
-    {
-        "id": "73467983",
-        "title": "Python how to add two maticies with different number of rows and columns?",
-        "content": "Suppose I have two 2D matricies: [[1,2],[0,0]] and [[4,8],[0,0],[5,6]] and I want to sum them up and get the matrix [[5,10],[0,0],[5,6]]. How can I do it in the most easiest way without writing my own ...",
-        "vote": "1",
-        "answer": "1",
-        "view": "1"
-    },
-    {
-        "id": "73467970",
-        "title": "i Want to Extract the Paragraph Below a specific word.docx and store it to a variable",
-        "content": "Market InsightsThe global Military Gas Mask market was valued at US$ 5.51 Billion in 2021, and it is expected to reach a value of US$ 14.93 Billion by 2028, at a CAGR of 11.7% over the forecast ...",
-        "vote": "-2",
-        "answer": "-2",
-        "view": "1"
-    },
-    {
-        "id": "73467963",
-        "title": "New to Python: How to keep the first letter of each word capitalized?",
-        "content": "I was practicing with this tiny program with the hopes to capitalize the first letter of each word in: john Smith.I wanted to capitalize the j in john so I would have an end result of John Smith and ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "2"
-    },
-    {
-        "id": "73467940",
-        "title": "How can I implement multiple user accounts at the same time in discord.py",
-        "content": "I'm trying to make it possible for several users to use the bot's capabilities independently of each other's incoming data, but when 2> users try to use their data from the database, they can edit ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467915",
-        "title": "Given the quarter name return the start and end dates",
-        "content": "I have a string like \"2015-Q1\". What is the best way to return the start date and end date of the given quarter?Input:2015-Q1Expected Output:(2015-01-01,2015-03-31)",
+        "id": "73480826",
+        "title": "Generating a list of sequences without repeating elements from a panda dataframe using Python",
+        "content": "I am trying to create a a list of sequences based on the following three columns panda table.The data table would look like:|FROM|OPERATION|TO||   2|       10| 1||   2|       11| 4||   1|       ...",
         "vote": "-1",
-        "answer": "-1",
-        "view": "4"
+        "answer": "0",
+        "view": "29"
     },
     {
-        "id": "73467902",
-        "title": "Share attributes/ variables between classes python",
-        "content": "class Base(object):    def __init__(self):        print(\"Base created\")        a = \"baseclass\"class ChildA(Base):    def __init__(self):        Base.__init__(self)        b ...",
+        "id": "73480774",
+        "title": "Can I create a Middleware class in one app that handles requests in other apps on the site",
+        "content": "In reading the,Middlware DocumentationI can see I can write a middleware class that will see and has access to every request in my app, which is good.What if I want my Middleware to see and handle ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "25"
+    },
+    {
+        "id": "73480771",
+        "title": "Tox installs the wrong dependencies",
+        "content": "py310-django32-oauthlib1 create: /mydirectory py310-django32-oauthlib1 create: /mydirectory/.tox/py310-django32-oauthlib1py310-django32-oauthlib1 installdeps: oauthlib==1.1.2, django~=3.2.10, ....etc ...",
+        "vote": "0",
+        "answer": "0",
+        "view": "12"
+    },
+    {
+        "id": "73480741",
+        "title": "Python dictionary where values are lists, how to remove Xth item from every list value",
+        "content": "I have dictionary in the form of:dict_one =  { key2: [val1, val2, val3], key2: [val1, val2, val3] }I want to remove 'val3' from every element in the dictionary. I believe this should be possible ...",
+        "vote": "0",
+        "answer": "3",
+        "view": "34"
+    },
+    {
+        "id": "73480737",
+        "title": "is it possible that an 8 puzzle is unsolvable",
+        "content": "I am trying to create a python program that solves the famous 8 puzzle, and am not entirely sure if i understand this correctly but how do i check if the 8 puzzle is solvable I tried the inversion ...",
         "vote": "-1",
-        "answer": "-1",
-        "view": "1"
+        "answer": "0",
+        "view": "26"
     },
     {
-        "id": "73467894",
-        "title": "In Python, how can I append each key and value of dictionary to columns?",
-        "content": "In Python, I have a dataframe that has json variablesFor example,If keys and values of a column are like{'a': 3, 'b': 2, 'c': 1}{'d': 287, 'e': 56, 'f': 17, 'g': 9}{'h': 22, 'i': 15, 'a': 7}{'g':...",
-        "vote": "-1",
-        "answer": "-1",
-        "view": "1"
-    },
-    {
-        "id": "73467892",
-        "title": "Link prediction algorithm for signed networks",
-        "content": "I am trying to find a link prediction algorithm for signed networks. I have about 17 signed networks with an average of 11 nodes and 50 edges. I am using networkx to analyze them and I am trying to ...",
+        "id": "73480734",
+        "title": "How to send a list of emails using python and how to add image to my email",
+        "content": "I have a list of email but I dont know how to send it. I used this code but its not working. Also, I would like to know how to add an image.reading the spreadsheetemail_list = pd.read_excel('path')...",
         "vote": "0",
         "answer": "0",
-        "view": "0"
+        "view": "11"
     },
     {
-        "id": "73467878",
-        "title": "how to get component instance of angular app using selenium python",
-        "content": "We are automating angular app using selenium webdriver python. And I was wondering if there is any way to reach to the component instances,Using this I guess we can verify the data which is rendered ...",
+        "id": "73480729",
+        "title": "How do you get a cross section of data from a Pandas dataframe with a key for a MultiIndex?",
+        "content": "I have a dataframe like thisA, B, Cd, 1, 2d, 3, 4e, 5, 6e, 7, 8I am trying to getB, C1, 23, 4andB, C5, 67, 8By iterating through d, e, etc.I can get the keys just fine looping though ...",
         "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467873",
-        "title": "Django formsets not saving all forms to the database",
-        "content": "I have a formset to render multiple forms at once. By default only two forms are rendered.Using JavaScript, I'm adding another two forms to the formset, so the total number of forms is now four.When ...",
-        "vote": "1",
-        "answer": "1",
-        "view": "1"
-    },
-    {
-        "id": "73467872",
-        "title": "ModuleError: No module named pptx found",
-        "content": "I am writing a python code for merging ppts. It takes the location of the 2 ppts, merges them and puts the merged ppt formed in the folder given by user. The code used is:import sysfrom pptx import ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "1"
-    },
-    {
-        "id": "73467861",
-        "title": "How to pass variable as a parameter in SQL in python",
-        "content": "Question: I want to use either variable x as a parameter for where condition in SQL query. Also, can I use data frame as a parameter for where condition in SQL in pythonQuery:x= ('610094437','...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467857",
-        "title": "How can I write a code the output will be in one line? [closed]",
-        "content": "this is my code's picturehow can I write all the informations in the same line? in python.",
-        "vote": "-3",
-        "answer": "-3",
-        "view": "1"
-    },
-    {
-        "id": "73467823",
-        "title": "Is there any way to get email/whatsapp notification when a scheduled python file in task scheduler fails to execute?",
-        "content": "I am currently working on scheduling some python tasks for different purposes, but I want to get notified about the failure of python code execution if it doesn't reach the end of line.I have ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467817",
-        "title": "how to fix url in scrapy because my url is changed",
-        "content": "class IronsSpider(scrapy.Spider):    name = 'irons'    allowed_domains = ['ironplanet.com.au']    start_urls = ['https://www.ironplanet.com.au/jsp/s/search.ips#pstart=0&sm=0&k=steel&mf=...",
-        "vote": "-1",
-        "answer": "-1",
-        "view": "0"
-    },
-    {
-        "id": "73467813",
-        "title": "Mimic UDP DNS server Python application client/server",
-        "content": "i'm looking to build a mimic UDP DNS cleint/server application in python that will essentially supoport A and CNAME, and translate the host name to ip address and host aliasing, with the client ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467812",
-        "title": "Is there any way to implement early stopping callback for Tensorflow 2 model_main_tf.py?",
-        "content": "Hello I'm working on object detection using tensorflow 2 object detection API model_main_tf2.py file normally we can use early stopping callback for model.fit() when we use normally but when i tried ...",
-        "vote": "-1",
-        "answer": "-1",
-        "view": "0"
-    },
-    {
-        "id": "73467803",
-        "title": "How can I print the \"target\" form the below image",
-        "content": "strong textcode-->>    for i in data_dict[\"design_state_data\"]:        print(i)output-->>      session_info      target      train      metrics      feature_handling   ...",
-        "vote": "1",
-        "answer": "1",
-        "view": "1"
-    },
-    {
-        "id": "73467799",
-        "title": "How to change existing python script for Postgres Dump?",
-        "content": "I have a python script that creates pg_dump file by Postgres DB, but here's the issue: this script takes only defined table and write it into the file.There's no opportunity to restore DB from the ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467789",
-        "title": "How to replace a lot of if/elif statements in python?",
-        "content": "i am writing function in python for control outputs on QUIDO board throught post html requests. I have a lot of if and elif statements in my program. Is there some way how to make code more ...",
-        "vote": "-1",
-        "answer": "-1",
-        "view": "6"
-    },
-    {
-        "id": "73467751",
-        "title": "Tkinter progress bar with integer increment not time",
-        "content": "I want to use the Tkinter progress bar as an indicator of the number of iterations in for loop e.g.     for i in range(123)progress bar steps to \"i\" and full bar and stops when reaching &...",
-        "vote": "-1",
-        "answer": "-1",
-        "view": "0"
-    },
-    {
-        "id": "73467706",
-        "title": "Social media follower counter program [closed]",
-        "content": "I am coding a program to check how many social media followers a user has along with keep track of how many individuals follow that user, unfollow that user and block that user. I would like some ...",
-        "vote": "-5",
-        "answer": "-5",
-        "view": "1"
-    },
-    {
-        "id": "73467655",
-        "title": "OperationalError: (psycopg2.OperationalError) terminating connection due to idle-in-transaction timeout",
-        "content": "I have a function that perfroms a search likedef search(cls: Type[T], session, search_query):        combined_search_vector = (            x.y.search_vector            | sa.func.coalesce(xClass....",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467630",
-        "title": "Multi Camera Multi perosin tracking python",
-        "content": "I want to make an application to track people on multiple cameras if one person goes into another camera angle they can not lose his or her ID I don't want to use a re-identification system",
-        "vote": "-3",
-        "answer": "-3",
-        "view": "0"
-    },
-    {
-        "id": "73467626",
-        "title": "What is running behind when creating Django project with one line command",
-        "content": "a fresh question about Django. It maybe silly...I wonder what is running behind the scene when I create a Django project with one line command. Well, I have done with couples of Django projects, the ...",
-        "vote": "2",
         "answer": "2",
-        "view": "0"
+        "view": "20"
     },
     {
-        "id": "73467618",
-        "title": "Not able to fetch titles of a website using BS4",
-        "content": "import requestsfrom bs4 import BeautifulSoupurl = \"https://youtube.com/\"r = requests.get(url)htmlContent = r.contentsoup=BeautifulSoup(htmlContent, 'html.parser')title = soup.title()...",
+        "id": "73480719",
+        "title": "Leetcode difference between submission and console answer checking",
+        "content": "I have some code for Leetcode question 2266. (Python) https://leetcode.com/problems/count-number-of-texts/class Solution:    def countTexts(self, pressedKeys: str) -> int:        # steps:       ...",
         "vote": "0",
         "answer": "0",
-        "view": "2"
+        "view": "14"
     },
     {
-        "id": "73467584",
-        "title": "Can I pre-transform images when training a deep learning model?",
-        "content": "If you ever trained a model, you sometimes can see DataLoader (e.g. I am using pytorch Dataloader) could be the bottleneck because everytime you get an training sample from the dataset, the data ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467581",
-        "title": "Python Pandas round decimal using reference rows",
-        "content": "I want to round the number in bid_2 and ask_2 depends of the bid_1 and ask_1. If bid_1 has 4 digit after the dot, make the bid_2 with 4 digits after the dot.My df is like this:          symbol   ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "1"
-    },
-    {
-        "id": "73467535",
-        "title": "Getting Json object and creating columns for it in Scala?",
-        "content": "I need help in converting python code to Scala program in azure databricks environment,FYI, I have below df in scalaval df = spark.read.format(\"delta\").load(\"my-file-path\")     ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467534",
-        "title": "Excel vlookup in python dataframe",
-        "content": "How can i make vlookup like in excel to pandas, i'm totally begginer in python. My first and second dataframe like thisdata_01 = pd.DataFrame({'Tipe Car':['A', 'B', 'C', 'D'], 'Branch':['UD', 'UA', '...",
-        "vote": "0",
-        "answer": "0",
-        "view": "1"
-    },
-    {
-        "id": "73467530",
-        "title": "Can you pls tell me where do I give input in this code? [closed]",
-        "content": "Where do I give input here to train my dad. Where do I import my datset?def __init__(self, word_features_dim, dense_features_dim):    lstm_input_phrase = keras.layers.Input(shape=(None, ...",
-        "vote": "-2",
-        "answer": "-2",
-        "view": "0"
-    },
-    {
-        "id": "73467526",
-        "title": "Print a variable inside a variable [duplicate]",
-        "content": "line0 = \"hello\"line1 = \"stack\"line2 = \"overflow\"linenum = 1for x in range(3):    linenum = \"line%d\"%(x)    print(linenum)I would like to print hello ...",
+        "id": "73480711",
+        "title": "List Index Out of Range on Function except the index shouldn't be out of range",
+        "content": "I am working on a small function to assign random stats for a tabletop game I'm playing.  I'm fairly certain my code is clunky and I have variables I could probably merge somewhere.  I'm pretty new to ...",
         "vote": "-1",
-        "answer": "-1",
-        "view": "5"
-    },
-    {
-        "id": "73467521",
-        "title": "How to create LSTM model with time series data with joint torque prediction",
-        "content": "I'm trying to predict joint torque from 8 input features with an LSTM model.I've tried using TimeseriesGenerator but kept getting an errorKey: 10 when I tried running the .fit_generator function in ...",
-        "vote": "1",
-        "answer": "1",
-        "view": "0"
-    },
-    {
-        "id": "73467520",
-        "title": "Obtain List of Losses Per Epoch from FastAI Learner",
-        "content": "Is there a FastAI method for obtaining a list of losses during testing/validation?I would like to obtain a list of numerical losses per epoch.from fastai.text.all import *learn = Learner(dls, model....",
-        "vote": "0",
         "answer": "0",
-        "view": "0"
-    },
-    {
-        "id": "73467511",
-        "title": "How to find the 'peak' of a polynomial regression line in Matplotlib",
-        "content": "Is it possible to find the peak (vertex?) values (x,y) of a polynomial regression line that was computed using Matplotlib?I've included my basic setup below (of course with fuller data sets), as well ...",
-        "vote": "0",
-        "answer": "0",
-        "view": "1"
+        "view": "23"
     }
 ]

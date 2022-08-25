@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  crawler:
+    container_name: mycrawler
+    build: .
+    restart: always
+    
