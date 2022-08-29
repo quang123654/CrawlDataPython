@@ -2,18 +2,11 @@
 pipeline {
     agent any
     stages {
-        stage('Clone stage') {
+        stage('Test') {
             steps {
-                git 'https://github.com/quang123654/CrawlDataPython.git'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                withDockerRegistry(credentialsId: 'docker-hub', url: 'https://index.docker.io/v1/') {
-                    sh label: '', script: 'docker build -t quanglathe/crawldatap:v10 .'
-                    sh label: '', script:  'docker push quanglathe/crawldatap:v10'
-                }
+                sh '''
+                python --version
+                '''
             }
         }
     }
