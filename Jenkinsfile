@@ -11,7 +11,7 @@ pipeline {
                 bat '''
                     python --version
                     pip3 install --no-cache-dir -r requirements.txt
-                    python crawl.py
+                    python go-spider.py
                 '''
             }
         }
