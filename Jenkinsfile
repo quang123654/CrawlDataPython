@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent { docker { image 'python:3.10.1-alpine' } }
     stages {
-        stage('Clone') {
+        stage('build') {
             steps {
-                git 'https://github.com/quang123654/CrawlDataPython.git'
+                sh 'python --version'
             }
         }
     }
