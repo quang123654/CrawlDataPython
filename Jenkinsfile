@@ -1,6 +1,6 @@
 /* groovylint-disable-next-line CompileStatic */
 pipeline {
-    agent
+    agent any
     stages {
         stage('Clone stage') {
             steps {
