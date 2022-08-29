@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '''
+                bat '''
                     python --version
                     pip3 install --no-cache-dir -r requirements.txt
                     python crawl.py
