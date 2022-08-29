@@ -1,18 +1,24 @@
+/* groovylint-disable CompileStatic */
 pipeline {
-    agent {
-        docker {
-            image 'python:3.8-alpine'
-        }
+    agent any
+    options {
+        skipStagesAfterUnstable()
     }
-
     stages {
         stage('Build') {
             steps {
-                sh '''
-                    python --version
-                    pip3 install --no-cache-dir -r requirements.txt
-                    python go-spider.py
-                '''
+                sh 'make'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'make check'
+                junit 'reports/**/*.xml'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'make publish'
             }
         }
     }
