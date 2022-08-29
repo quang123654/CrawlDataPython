@@ -1,20 +1,21 @@
 /* groovylint-disable-next-line CompileStatic */
 pipeline {
-    agent {
-        docker {
-            image 'python:3.8-alpine'
-        }
-    }
-
+    agent
     stages {
+        stage('Clone stage') {
+            steps {
+                git credentialsId: 'hook-3', url: 'https://github.com/quang123654/CrawlDataPython.git'
+            }
+        }
+
         stage('Build') {
             steps {
-                sh '''
-                    python --version
-                    pip3 install --no-cache-dir -r requirements.txt
-                    python crawl.py
-                '''
+                withDockerRegistry(credentialsId: 'docker-hub', url: 'https://index.docker.io/v1/') {
+                    sh label: '', script: 'docker build -t quanglathe/crawldatap:v10 .'
+                    sh label: '', script:  'docker push quanglathe/crawldatap:v10'
+                }
             }
         }
     }
 }
+
