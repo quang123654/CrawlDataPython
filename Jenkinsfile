@@ -1,24 +1,19 @@
-/* groovylint-disable CompileStatic */
+/* groovylint-disable-next-line CompileStatic */
 pipeline {
-    agent any
-    options {
-        skipStagesAfterUnstable()
+    agent {
+        docker {
+            image 'python:3.8-alpine'
+        }
     }
+
     stages {
         stage('Build') {
             steps {
-                sh 'make'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'make check'
-                junit 'reports/**/*.xml'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'make publish'
+                sh '''
+                    python --version
+                    pip3 install --no-cache-dir -r requirements.txt
+                    python crawl.py
+                '''
             }
         }
     }
