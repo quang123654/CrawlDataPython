@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone stage') {
             steps {
-                git credentialsId: 'hook-3', url: 'https://github.com/quang123654/CrawlDataPython.git'
+                git 'https://github.com/quang123654/CrawlDataPython.git'
             }
         }
 
