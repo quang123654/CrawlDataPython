@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh "python3 crawl.py"
+                sh "python3 go-spider.py"
             }
         }
     }
