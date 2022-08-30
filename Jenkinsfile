@@ -18,7 +18,7 @@ pipeline {
         stage('Clone github') {
             steps {
                 sh "rm -rf scrapy"
-                sh "git clone https://github.com/hoangthinh28/scrapy-crawl.git scrapy"
+                sh "git clone https://github.com/quang123654/CrawlDataPython.git scrapy"
                 sh "cd scrapy"
                 sh "pip3 install --no-cache-dir -r requirements.txt"
             }
